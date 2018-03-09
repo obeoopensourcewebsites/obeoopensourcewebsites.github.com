@@ -18,3 +18,16 @@ script:
 - zip -r acceleo.zip acceleo
 - zip -r sirius.zip sirius
 - zip -r umldesigner.zip umldesigner
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: $DEPLOY_KEY
+  file:
+    - $TRAVIS_BUILD_DIR/_site/acceleo.zip
+    - $TRAVIS_BUILD_DIR/_site/sirius.zip
+    - $TRAVIS_BUILD_DIR/_site/umldesigner.zip
+  on:
+    tags: true
+    repo: sbegaudeau/OpenSourceWebsites
+    all_branches: true
