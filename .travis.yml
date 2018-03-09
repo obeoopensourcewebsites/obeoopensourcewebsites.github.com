@@ -29,5 +29,5 @@ deploy:
     - $TRAVIS_BUILD_DIR/_site/umldesigner.zip
   on:
     tags: true
-    repo: sbegaudeau/OpenSourceWebsites
+    repo: sbegaudeau/opensource-websites
     all_branches: true
