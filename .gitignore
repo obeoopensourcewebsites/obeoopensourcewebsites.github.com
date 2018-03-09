@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-metadata
+
+acceleo/common_assets
+sirius/common_assets
+umldesigner/common_assets
