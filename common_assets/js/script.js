@@ -1,1 +1,1 @@
-alert('JS Loaded');
+console.log('New JS Script');
