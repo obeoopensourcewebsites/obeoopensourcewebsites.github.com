@@ -1,0 +1,20 @@
+language: java
+sudo: required
+before_script:
+- sudo apt-get install ruby-dev
+- gem install jekyll
+- gem install jekyll-paginate
+- gem install jekyll-gist
+- gem install pygments.rb
+- gem install redcarpet
+- gem install RedCloth
+script:
+- cd build
+- ls
+- pwd
+- chmod a+x production.sh
+- ./production.sh
+- cd ../_site
+- zip -r acceleo.zip acceleo
+- zip -r sirius.zip sirius
+- zip -r umldesigner.zip umldesigner
