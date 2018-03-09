@@ -14,4 +14,5 @@ if [ -d umldesigner/common_assets ]; then rm -R umldesigner/common_assets; fi
 mkdir ./umldesigner/common_assets
 cp -r ./common_assets/* ./umldesigner/common_assets
 
+bundle install
 bundle exec jekyll build --config=_production_config.yml
