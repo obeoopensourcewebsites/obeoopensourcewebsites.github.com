@@ -1,0 +1,20 @@
+<div class="col-md-5 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+    <h1>{{ include.title }}</h1>
+    <p>{{ include.desc }}</p>
+    <p>
+        <a href="{{ include.href_1 }}" class="btn btn-default span-right wow fadeInUp animated" data-wow-delay=".6s" target="_{{ include.target_1 }}">
+            {{ include.btn_txt_1 }}
+        </a>
+        <a href="{{ include.href_2 }}" class="btn btn-primary wow fadeInUp animated" data-wow-delay=".6s" target="_{{ include.target_2 }}">
+            {{ include.btn_txt_2 }}
+        </a>
+    </p>                                
+</div>
+    
+<div class="col-md-7 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+    <p>
+        <a href="{{ include.img_href }}" class="wow fadeInUp animated" data-wow-delay=".6s" target="_{{ include.img_target }}">
+            <img src="{{ include.img_src | page.url }}" alt="{{ include.img_alt }}">
+        </a>
+    </p>                                
+</div>
