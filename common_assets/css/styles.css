@@ -5,6 +5,7 @@ body {
   font-size: 16px;
   color: #777;
   font-weight: 300;
+  padding-top: 80px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -136,7 +137,9 @@ section {
   margin-bottom: 18px;
   text-transform: uppercase;
 }
-
+.col-md-7 img {
+  width: 100%;
+}
 /* Menu - Navigation*/
 #top-bar {
   background: #fff;
