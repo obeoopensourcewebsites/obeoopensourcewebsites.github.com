@@ -1,10 +1,10 @@
 <div class="row">
-    <div class="col-md-5 {{ include.txt_order }}">
+    <div class="col-md-5 {{ include.txt_order }} wow fadeInLeft animated" data-wow-delay=".1s">
         <h3>{{ include.title }}</h3>
         {{ include.desc }}
-        <p><a class="wow fadeInUp" data-wow-delay=".3s" href="{{ include.lnk_href }}" target="_{{ include.lnk_target }}">{{ include.lnk_txt }}  <i class="{{ include.lnk_icon }}" aria-hidden="true"></i></a></p>
+        <p><a href="{{ include.lnk_href }}" target="_{{ include.lnk_target }}">{{ include.lnk_txt }}  <i class="{{ include.lnk_icon }}" aria-hidden="true"></i></a></p>
     </div>
-    <div class="col-md-7 {{ include.img_order }}">
+    <div class="col-md-7 {{ include.img_order }} wow fadeInUp animated" data-wow-delay=".2s">
         <img src="{{ include.img_src }}" alt="{{ include.img_title }}">
     </div>
 </div>
