@@ -10,17 +10,17 @@ title: Acceleo | Home
                 title="Generate anything from any EMF model" 
                 desc="Acceleo is the result of several man-years of R&D started in the French company Obeo. <br>Junction between the OMG MTL standard, its team's experience with industrial code generation and the latest research advances into the M2T field, it offers outstanding advantages : High ability to customize, Interoperability, Easy kick off, and much more!"
                 
-                href_1="download"
+                href_1="download.html"
                 target_1="self"
                 btn_txt_1="Download"
 
-                href_2="overview"      
+                href_2="overview.html"      
                 target_2="self"      
                 btn_txt_2="Overview"
 
                 img_href="#"
                 img_target="self"
-                img_src="images/banners/banner_acceleo_overview.jpg"
+                img_src="images/illustrations/acceleo_overview.png"
                 img_alt="Some text"
             %}
         </div>
@@ -40,6 +40,7 @@ title: Acceleo | Home
             {% include block_cols.html
                 col="4"
                 icon_name="fas fa-key"
+                icon_color="txt_indigo"                
                 title="Open Source" 
                 desc="Acceleo is an open template-based source code generation technology developed inside of the Eclipse Foundation. As such, you can use it freely, fork it and even contribute back.
                 "
@@ -48,6 +49,7 @@ title: Acceleo | Home
             {% include block_cols.html
                 col="4"
                 icon_name="fas fa-palette"
+                icon_color="txt_indigo"
                 title="Versatile" 
                 desc="Code generators are often limited to a set of technologies. With its template based approach, Acceleo can generate code for any kind of languages. If you can write it, Acceleo can generate it."
             %}
@@ -55,6 +57,7 @@ title: Acceleo | Home
             {% include block_cols.html
                 col="4"
                 icon_name="fas fa-lock-open"
+                icon_color="txt_indigo"
                 title="Stand Alone" 
                 desc="Acceleo does not lock you inside of the Eclipse environment, as such you can build and run your generator easily out of Eclipse. Acceleo provides a brand new Maven integration."
             %}
@@ -65,6 +68,7 @@ title: Acceleo | Home
                  {% include block_cols.html
                 col="6"
                 icon_name="fas fa-plug"
+                icon_color="txt_indigo"
                 title="Integrated in Eclipse" 
                 desc="Acceleo is deeply integrated in the Eclipse IDE with a full fledged editor with syntax highlighting, real time error detection, quick fixes, refactoring and much more. It also comes with dedicated views to help you navigate within your code generator and quickly access code generation design patterns."
             %}
@@ -72,7 +76,8 @@ title: Acceleo | Home
     
                 {% include block_cols.html
                     col="6"
-                    icon_name="fas fa-step-forward"     
+                    icon_name="fas fa-step-forward"
+                    icon_color="txt_indigo"     
                     title="Incremental Generation" 
                     desc="Whether you are considering it or not, you will one day have to modify manually your generated code and you want to keep your modification even if you are regenerating your code. Acceleo lets you define protected areas in which you can safely modify the generated."
                 %}
@@ -91,7 +96,8 @@ title: Acceleo | Home
     <div class="row">
         {% include block_cols.html
             col="4"
-            icon_name="fas fa-file-alt"
+            icon_name="far fa-file-alt"
+            icon_color="txt_indigo"
             title="Documentation" 
             desc="Learn how to use Acceleo, thanks to online complete user guides and reference manuals"
             href="resources"
@@ -101,20 +107,24 @@ title: Acceleo | Home
 
         {% include block_cols.html
             col="4"
-            icon_name="fas fa-comment"
+            icon_name="far fa-comment"
+            icon_color="txt_indigo"
             title="Forum" 
             desc="Find relevant posts/answers. No solution yet to your concern? Come and ask your question    "
             href="https://www.eclipse.org/forums/index.php?t=thread&frm_id=24&"
+            target="_blank"
             link_txt="Learn more"
             href_icon="fas fa-arrow-alt-circle-right"
         %}
 
         {% include block_cols.html
             col="4"
-            icon_name="fas fa-life-ring"
+            icon_name="far fa-life-ring"
+            icon_color="txt_indigo"
             title="Professional support" 
             desc="Obeo, leader of Acceleo’s development, provides training, expertise, custom development and support plans"
-            href="https://www.obeo.fr/en/services"
+            href="https://www.obeosoft.com/en/services"
+            target="_blank"
             link_txt="Learn more"
             href_icon="fas fa-arrow-alt-circle-right"
         %}
@@ -130,8 +140,8 @@ title: Acceleo | Home
             desc=""
         %}
         <div class="row">
-            <div class="col-md-12 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">            
-                <p><a href="http://www.obeo.fr" title="Logo Obeo"><img src="/common_assets/images/logos/logo_obeo.png"></a></p>
+            <div class="col-md-12 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="https://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.url }}/common_assets/images/logos/logo_obeo.png"></a></p>
             </div>
         </div>
     </div>       

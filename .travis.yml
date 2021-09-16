@@ -16,8 +16,10 @@ script:
 - ./production.sh
 - cd ../_site
 - zip -r acceleo.zip acceleo
+- zip -r emfcompare.zip emfcompare
+- zip -r ecoretools.zip ecoretools
 - zip -r sirius.zip sirius
-- zip -r umldesigner.zip umldesigner
+- zip -r isdesigner.zip isdesigner
 deploy:
   provider: releases
   skip_cleanup: true
@@ -25,8 +27,10 @@ deploy:
     secure: $DEPLOY_KEY
   file:
     - $TRAVIS_BUILD_DIR/_site/acceleo.zip
+    - $TRAVIS_BUILD_DIR/_site/emfcompare.zip
+    - $TRAVIS_BUILD_DIR/_site/ecoretools.zip
     - $TRAVIS_BUILD_DIR/_site/sirius.zip
-    - $TRAVIS_BUILD_DIR/_site/umldesigner.zip
+    - $TRAVIS_BUILD_DIR/_site/isdesigner.zip
   on:
     tags: true
     repo: sbegaudeau/opensource-websites

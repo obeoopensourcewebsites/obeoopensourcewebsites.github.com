@@ -16,8 +16,12 @@
 
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 acceleo_baseurl: "/acceleo"
+emfcompare_baseurl: "/emfcompare"
+ecoretools_baseurl: "/ecoretools"
 sirius_baseurl: "/sirius"
-umldesigner_baseurl: "/umldesigner"
+isdesigner_baseurl: "/isdesigner"
+description: The Eclipse Foundation - home to a global community, the Eclipse IDE, Jakarta EE and over 350 open source projects, including runtimes, tools and frameworks
+ecoretools_description: EcoreTools - Graphical Modeling for Ecore
 
 # Build settings
 markdown: kramdown

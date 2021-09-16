@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include ecoretools/head.html %}
+  
+  <body>
+
+    {% include ecoretools/navbar.html %}
+    
+    {{ content }}
+
+<footer>
+  <div class="container">
+      <div class="row">    
+        {% include footer_eclipse.html %}
+        {% include ecoretools/footer.html %}
+    </div>
+  </div>
+</footer>
+
+    {% include scripts.html %}
+  
+  </body>
+</html>

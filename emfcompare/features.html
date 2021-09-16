@@ -1,0 +1,71 @@
+---
+layout: emfcompare_default
+title: EMF Compare | Features
+---
+
+<section>
+    <div class="container">
+       
+        {% include block_text_image.html
+            txt_order="order-1"
+            title="Extensible and customizable"                
+            desc="
+            <p>EMF Compare provides powerful extensibility mechanisms in order to compare and merge any kind of EMF model.</p>
+            <p>Depending on your own comparison strategy, EMF Compare allows you to fully customize the matching method (to find equivalences) and the differencing process (to identify gaps between two versions of the same object).</p>
+           
+            <p>The comparison UI can also be customized to show differences exactly as you need (labels, filters, groups, etc).</p>
+            "
+            lnk_txt="Learn more"
+            lnk_href="https://www.eclipse.org/emf/compare/documentation/latest/user/user-guide.html#Features"
+            lnk_target="blank"
+            lnk_icon="fas fa-arrow-alt-circle-right"
+
+            img_order="order-2"
+            img_src="images/screenshots/emfcompare-sirius-family.png"
+            img_title="EMF Compare - Extensible and customizable"
+        %}
+    </div>
+</section>
+<section class="bg_lightest_grey">
+    <div class="container">
+        {% include block_text_image.html
+            txt_order="order-2"
+            title="Scaling to millions"
+            desc="
+            <p>EMF Compare has been designed with scalability in mind in order to support comparisons of large fragmented models.</p>
+            <p>It only loads the fragments susceptible to have changed and then compares only these parts. Only the necessary fragments (minimized scope) of the compared models are loaded, bringing fast differences computing along with an optimal memory footprint.</p>
+            <p>This way, EMFCompare is able to compare models with millions of elements in a number of steps proportional to the number of differences.</p>
+            "
+            lnk_txt="Learn more"
+            lnk_href="https://www.eclipse.org/emf/compare/documentation/latest/user/user-guide.html#Customization"
+            lnk_target="self"
+            lnk_icon="fas fa-arrow-alt-circle-right"
+
+            img_order="order-1"
+            img_src="images/screenshots/emfcompare-scaling.jpg"
+            img_title="EMF Compare - Scaling to millions"
+        %}           
+    </div>
+</section>
+<section>
+    <div class="container">
+       
+        {% include block_text_image.html
+            txt_order="order-1"
+            title="Integration with Eclipse Team APIs"                
+            desc="
+            <p>EMF Compare relies on Eclipse Team, the framework upon which the repository providers (EGit, CVS, Subversive...) are built. It means that you can directly compare models managed in such repositories.</p>
+            <p>Moreover, if these models are fragmented, EMF Compare provides a global view on the changes, at the model level and not file by file.</p>
+            <p>It helps you to avoid the tedious task of comparing and merging textual differences in individual files. It also ensures that the merge will keep the integrity of the model.</p>
+            "
+            lnk_txt="Learn more"
+            lnk_href="documentation/latest/user/user-guide.html#Compare_with_remote_models_.28EGit.29"
+            lnk_target="blank"
+            lnk_icon="fas fa-arrow-alt-circle-right"
+
+            img_order="order-2"
+            img_src="images/screenshots/emfcompare_logo_git.png"
+            img_title="EMF Compare - Integration with Eclipse Team APIs"
+        %}
+    </div>
+</section>

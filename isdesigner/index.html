@@ -1,0 +1,176 @@
+---
+layout: isdesigner_default
+title: Information System Designer | Home
+---
+
+<section id="intro" class="">
+    <div class="container">
+        <div class="row align-items-end">
+            {% include section_intro.html
+                title="Analysez, concevez, partagez !" 
+                desc="Un outil open-source complet pour décrire visuellement les applications de votre système d’information."                
+                
+                href_1="download.html"
+                btn_txt_1="C'est parti"
+                target_1="self"
+                href_2="overview.html"      
+                btn_txt_2="Fonctionnalités"
+                target_2="self"      
+                
+                img_href="overview.html"
+                img_target="self"
+                img_src="images/illustrations/sirius-overview.png"
+                img_alt="Some text"
+            %}
+        </div>
+    </div>
+</section>
+
+<section id="" class="bg_lightest_grey text-center">
+    <div class="container">
+            {% include block_heading.html
+                title="Atelier unique"                
+                sub_title=""
+                desc=""
+            %}
+
+            <div class="row">
+                {% include block_cols.html
+                    col="4"
+                    icon_name="fas fa-stream"
+                    icon_color="txt_indigo"
+                    title="Analyste métier" 
+                    desc="Capturer les besoins et dialoguer avec les concepteurs et développeurs"
+                %}
+                {% include block_cols.html
+                    col="4"
+                    icon_name="fas fa-stream"
+                    icon_color="txt_indigo"
+                    title="Concepteur Front-End" 
+                    desc="Concevoir les interfaces utilisateurs et les interactions avec le back-end"
+                %}
+                {% include block_cols.html
+                    col="4"
+                    icon_name="fas fa-stream"
+                    icon_color="txt_indigo"
+                    title="Concepteur Back-End" 
+                    desc="Définir les services applicatifs, les objets métiers et la base de données"
+                %}
+            </div>
+    </div>
+</section>
+
+
+<section id="complexity_management">
+    <div class="container">
+        {% include block_text_image.html
+            txt_order="order-1"
+            title="Editeurs graphiques dédiés"                
+            desc="<p>Des éditeurs graphiques dédiés permettent de modéliser visuellement les différents aspects d’une application :<ul><li>Exigences</li><li>Scénarios d'usage</li><li>de données</li><li>Entités de données</li><li>Services</li><li>IHM</li></ul></p>"
+        
+            lnk_txt=""
+            lnk_href=""
+            lnk_target=""
+            lnk_icon=""
+
+            img_order="order-2"
+            img_src="images/illustrations/sirius-overview.png"
+            img_title="EcoreTools - What is EcoreTools?"
+        %}
+    </div>
+</section>
+
+<section id="" class="bg_lightest_grey text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Approche Low-Code"                
+            sub_title=""
+            desc="En fournissant une plate-forme interactive et visuelle, Information System Designer<br>diminue la complexité technologique et permet de se concentrer<br>sur l’activité de conception des applications"
+        %}
+
+    <div class="row">
+        {% include block_cols.html
+            col="3"
+            icon_name="far fa-file-alt"
+            icon_color="txt_indigo"
+            title="Créativité" 
+            desc="Fournit un support de réflexion complet, visuel, et partagé pour l'analyse et la conception"
+            href="http://www.eclipse.org/sirius/doc/"
+            link_txt=""
+            href_icon=""
+        %}
+        {% include block_cols.html
+            col="3"
+            icon_name="far fa-file-alt"
+            icon_color="txt_indigo"
+            title="Productivité" 
+            desc="Améliore la productivité et la qualité depuis les spécifications jusqu'au développement"
+            href="http://www.eclipse.org/forums/index.php?t=thread&frm_id=262"
+            target="_blank"
+            link_txt=""
+            href_icon=""
+        %}
+        {% include block_cols.html
+            col="3"
+            icon_name="far fa-file-alt"
+            icon_color="txt_indigo"
+            title="Partage" 
+            desc="Facilite le partage de connaissances (techniques et métier) et la montée en compétence sur un projet"
+            href="https://www.obeodesigner.com/en/services"
+            target="_blank"
+            link_txt=""
+            href_icon=""
+        %}
+        {% include block_cols.html
+            col="3"
+            icon_name="far fa-file-alt"
+            icon_color="txt_indigo"
+            title="Connaissance" 
+            desc="Maintient une connaissance sur le long terme sur les choix de conception d'une application"
+            href="http://www.eclipse.org/sirius/doc/"
+            link_txt=""
+            href_icon=""
+        %}
+    </div>
+    </div>
+</section>
+
+<section id="" class="text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Open-Source"
+            sub_title=""
+            desc=""
+        %}
+        <div class="row align-items-center">
+            <div class="col-md-4 offset-md-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="http://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_obeo.png"></a></p>
+                <p>Le code complet de l’atelier Information System Designer est disponible sur GitHub</p>
+            </div>
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="https://www.thalesgroup.com/en" title="Logo Thales" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_sirius.png"></a></p>
+                <p>L’atelier Information System Designer est un ensemble packagé de plug-ins Eclipse</p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-4 offset-md-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="http://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_obeo.png"></a></p>
+                <p>Information System Designer s’appuie sur Liquibase pour rétro-modéliser des bases de données existantes</p>
+            </div>
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="https://www.thalesgroup.com/en" title="Logo Thales" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_sirius.png"></a></p>
+                <p>Les éditeurs graphiques développés avec Sirius sont extensibles et personnalisables</p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-4 offset-md-2 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="http://www.obeosoft.com" title="Logo Obeo" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_obeo.png"></a></p>
+                <p>Information System Designer permet de rétro-modéliser des interfaces de services définies avec OpenAPI</p>
+            </div>
+            <div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">            
+                <p><a href="https://www.thalesgroup.com/en" title="Logo Thales" target="_blank"><img src="{{  site.isdesigner_baseurl }}/common_assets/images/logos/logo_sirius.png"></a></p>
+                <p>Les modèles créés avec Information System Designer peuvent servir pour générer du code avec Acceleo</p>
+            </div>
+        </div>
+    </div>       
+</section>

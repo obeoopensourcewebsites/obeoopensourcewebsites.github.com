@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include emfcompare/head.html %}
+  
+  <body>
+
+    {% include emfcompare/navbar.html %}
+    
+    {{ content }}
+
+<footer>
+  <div class="container">
+      <div class="row">    
+        {% include footer_eclipse.html %}
+        {% include emfcompare/footer.html %}
+    </div>
+  </div>
+</footer>
+
+    {% include scripts.html %}
+  
+  </body>
+</html>

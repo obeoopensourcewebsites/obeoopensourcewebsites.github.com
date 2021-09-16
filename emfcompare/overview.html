@@ -1,0 +1,69 @@
+---
+layout: emfcompare_default
+title: EMF Compare | Overview
+---
+
+<section>
+    <div class="container">
+       
+        {% include block_text_image.html
+            txt_order="order-1"
+            title="What is EMF Compare?"                
+            desc="
+            <p>EMF Compare provides comparison and merge facility for any kind of EMF Model.
+
+            </p>
+            <p>In a nutshell this project provides:</p>
+            <ul>
+                <li>a framework you can easily reuse and extend to compare instances of your models</li>
+                <li>a tool integrated in the Eclipse IDE to see the differences and merge them.</li>
+            </ul>
+            <p>It includes a generic comparison engine and the ability to export differences in a model patch. It is integrated with the Eclipse Team API meaning that it enables collaborative work on models using CVS, SVN and GIT.</p>
+            "
+            lnk_txt="Project page"
+            lnk_href="https://projects.eclipse.org/projects/modeling.emfcompare"
+            lnk_target="blank"
+            lnk_icon="fas fa-arrow-alt-circle-right"
+
+            img_order="order-2"
+            img_src="images/illustrations/emfcompare-definition.png"
+            img_title="EMF Compare - What is EMF Compare?"
+        %}
+    </div>
+</section>
+
+<section class="bg_lightest_grey">
+    <div class="container">
+        {% include block_text_image.html
+            txt_order="order-2"
+            title="Discover"
+            desc="
+            <p>EMF Compare will work out of the box on most models within Eclipse, so you can just start using it by comparing your models through the usual eclipse actions.</p>
+            <p><a href=\"documentation/latest/user/user-guide.html\">Check out the User Guide <i class=\"fas fa-arrow-alt-circle-right\" aria-hidden=\"true\"></i></a></p>
+            <p>Specific needs for your business model can be addressed through the extension mechanisms provided by EMF Compare as a framework. These same mechanisms can be used in order to extend EMF Compare support to new visualizations of the models, such as graphical modelers</p>
+            "
+            lnk_txt="Check out the Developer Guide"
+            lnk_href="documentation/latest/developer/developer-guide.html"
+            lnk_target="self"
+            lnk_icon="fas fa-arrow-alt-circle-right"
+
+            img_order="order-1"
+            img_src="images/screenshots/emfcompare-compare-merge.png"
+            img_title="EMF Compare - Discover"
+        %}           
+    </div>
+</section>
+
+<section class="text-center">
+    <div class="container">
+        {% include block_heading.html
+            title="Related Projects"                
+            sub_title=""
+            desc=""
+        %}
+        <div class="row">
+            <div class="col-md-12 col-xs-12 vcenter wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms"><a href="http://www.eclipse.org/modeling/emf/" title="Logo Eclipse EMF" target="_blank"><img src="{{  site.url }}/common_assets/images/logos/logo_emf.jpg"></a></div>
+        </div>
+        
+    </div>       
+</section>
